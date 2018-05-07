@@ -4,7 +4,7 @@ You can use the [editor on GitHub](https://github.com/smartdataua/rdfdatacube/ed
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-<iframe width="100%" height="300" src="//jsfiddle.net/gcandela/gv84Lthn/1/embedded/" allowpaymentrequest allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/gcandela/gv84Lthn/1/embedded/result/" allowpaymentrequest allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 ### Markdown
 
