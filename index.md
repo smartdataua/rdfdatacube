@@ -19,6 +19,6 @@ FOAF,  etc.).
 
 This is an example of how to publish data data which could help re-users to understand how the city’s open datasets could be used  in a meaningful way. The example is based on a [multidimensional dataset](https://raw.githubusercontent.com/hibernator11/datacuberdf/master/rdf-02-2017.n3). 
 
-<iframe width="100%" height="300" src="//jsfiddle.net/gcandela/gv84Lthn/1/embedded/result/" allowpaymentrequest allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/gcandela/gv84Lthn/2/embedded/result/" allowpaymentrequest allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 
