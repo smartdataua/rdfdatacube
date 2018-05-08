@@ -16,10 +16,10 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 ex:dataset a qb:DataSet ;
-  rdfs:label "Dataset"^^xmls:string ;
-  rdfs:comment "Overview description about the dataset" ;
+  rdfs:label "BCN Dataset"^^xmls:string ;
+  rdfs:comment "Multidimensional dataset about the critical cleaning spots in the city of Barcelona" ;
   qb:structure ex:dsd ;
-  dc:publisher "Publisher Office"^^xmls:string .
+  dc:publisher "Smart data ua group"^^xmls:string .
   
 sdmx-attr:unitMeasure a rdf:Property, qb:AttributeProperty ;
                         rdfs:label "Unit of Measure"@en ;
@@ -36,33 +36,33 @@ sdmx-meas:obsValue a rdf:Property, qb:MeasureProperty ;
 ex:perCapitaIncome a rdf:Property, qb:MeasureProperty ;
     rdfs:label "Per capita income"@en ;
     rdfs:subPropertyOf sdmx-meas:obsValue ;
-    rdfs:comment "The per capita income of a particular quarter at a particular period."@en ;
+    rdfs:comment "The per capita income in a particular quarter at a particular year."@en ;
     qb:concept sdmx-concept:obsValue ;
     rdfs:range xmls:decimal . 
     
 ex:population a rdf:Property, qb:MeasureProperty ;
     rdfs:label "Population"@en ;
     rdfs:subPropertyOf sdmx-meas:obsValue ;
-    rdfs:comment "The population of a particular quarter at a particular period."@en ;
+    rdfs:comment "The population in a particular quarter at a particular year."@en ;
     qb:concept sdmx-concept:obsValue .
     
 ex:numVisits a rdf:Property, qb:MeasureProperty ;
     rdfs:label "Number of visits"@en ;
     rdfs:subPropertyOf sdmx-meas:obsValue ;
-    rdfs:comment "The number of visits of a particular quarter at a particular period."@en ;
+    rdfs:comment "The number of visits in a particular quarter at a particular period."@en ;
     qb:concept sdmx-concept:obsValue .
     
 
 ex:criticalCleaningSpots a rdf:Property, qb:MeasureProperty ;
     rdfs:label "Critical cleaning spots"@en ;
     rdfs:subPropertyOf sdmx-meas:obsValue ;
-    rdfs:comment "The number of critical cleaning spots of a particular quarter at a particular period."@en ;
+    rdfs:comment "The number of critical cleaning spots in a particular quarter at a particular period."@en ;
     qb:concept sdmx-concept:obsValue .    
     
 ex:state a rdf:Property, qb:MeasureProperty ;
     rdfs:label "State"@en ;
     rdfs:subPropertyOf sdmx-meas:obsValue ;
-    rdfs:comment "The state of a particular quarter at a particular period."@en ;
+    rdfs:comment "The state of critical cleaning spots in a particular quarter at a particular period."@en ;
     qb:concept sdmx-concept:obsValue ;
     rdfs:range xmls:decimal .        
 
