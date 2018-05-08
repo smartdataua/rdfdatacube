@@ -5635,6 +5635,10 @@ ex:quarter67 a ex:Region ;
 ex:quarter19 a ex:Region ;
   owl:sameAs wd:Q3296693 ;
   rdfs:label "Les Corts"@en .
+
+ex:quarter20 a ex:Region ;
+  owl:sameAs wd:Q3297056 ;
+  rdfs:label "La Maternitat i Sant Ramon"@en .
    
 ex:quarter50 a ex:Region ;
   owl:sameAs wd:Q1627690 ;
@@ -5659,6 +5663,10 @@ ex:quarter21 a ex:Region ;
 ex:quarter45 a ex:Region ;
   owl:sameAs wd:Q3750558 ;
   rdfs:label "Porta"@en . 
+
+ex:quarter46 a ex:Region ;
+  owl:sameAs wd:Q524311 ;
+  rdfs:label "El Turó de la Peira"@en . 
 
 ex:quarter71 a ex:Region ;
   owl:sameAs wd:Q6273541 ;
