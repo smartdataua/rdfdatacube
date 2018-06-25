@@ -10,8 +10,6 @@
 @prefix sdmx-concept: <http://purl.org/linked-data/sdmx/2009/concept#> .
 @prefix xmls: <http://www.w3.org/2001/XMLSchema#> . 
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix dct: <http://purl.org/dc/terms/> .
-@prefix dbp-r: <http://dbpedia.org/resource/> .
 @prefix wd: <http://www.wikidata.org/entity/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
