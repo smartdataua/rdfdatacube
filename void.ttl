@@ -1,0 +1,41 @@
+@prefix void: <http://rdfs.org/ns/void#>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+
+<> a void:DatasetDescription;
+    dcterms:title "A VoID Description of the RDF Data Cube Dataset";
+    dcterms:creator <https://smartdataua.github.io/rdfdatacube/>;
+    foaf:homepage <https://smartdataua.github.io/rdfdatacube/>;
+    .
+    
+:dataset rdf:type void:Dataset ;
+ foaf:homepage <https://smartdataua.github.io/rdfdatacube/> ;
+ dcterms:title "A VoID Description of the RDF Data Cube Dataset" ;
+ dcterms:description "Linked Data version of the critical cleaning spots in Barcelone" ;
+ dcterms:publisher :University_Alicante;
+ dcterms:creator :gcandela;
+ dcterms:creator :pescobar;
+ dcterms:modified "2018-06-26"^^xsd:date;
+ void:vocabulary <http://purl.org/dc/elements/1.1/> ;
+ void:vocabulary <http://www.w3.org/2004/02/skos/core#> ;
+ void:vocabulary <http://www.w3.org/2000/01/rdf-schema#> ;
+ void:vocabulary <http://purl.org/linked-data/cube#> ;
+ void:exampleResource <http://example.com/201705/obs1> ;
+ void:uriSpace "http://example.com/";
+ dcterms:subject <http://dbpedia.org/page/Spanish_literature>;
+ dcterms:subject <http://dbpedia.org/page/Biblioteca_Virtual_Miguel_de_Cervantes>;
+ void:feature <http://www.w3.org/ns/formats/RDF_XML>;
+ .
+
+ :University_Alicante a foaf:Organization;
+    rdfs:label "Universidad de Alicante";
+    foaf:homepage <http://www.ua.es>;
+ .   
+ :gcandela a foaf:Person;
+    rdfs:label "Gustavo Candela";
+    foaf:mbox <mailto:gcandela@dlsi.ua.es>;
+    .   
+ :pescobar a foaf:Person;
+    rdfs:label "Pilar Escobar";
+    foaf:mbox <mailto:pescobar@dlsi.ua.es>;
+    .   
