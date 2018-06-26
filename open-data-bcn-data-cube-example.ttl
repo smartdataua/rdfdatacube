@@ -17,6 +17,7 @@ ex:dataset a qb:DataSet ;
   rdfs:label "BCN Dataset"^^xmls:string ;
   rdfs:comment "Multidimensional dataset about the critical cleaning spots in the city of Barcelona" ;
   qb:structure ex:dsd ;
+  dc:rights <https://creativecommons.org/licenses/by/4.0/> ;
   dc:publisher "Smart data ua group"^^xmls:string .
   
 sdmx-attr:unitMeasure a rdf:Property, qb:AttributeProperty ;
