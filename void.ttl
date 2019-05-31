@@ -22,8 +22,8 @@
  void:vocabulary <http://purl.org/linked-data/cube#> ;
  void:exampleResource <http://example.com/201705/obs1> ;
  void:uriSpace "http://example.com/";
- dcterms:subject <http://dbpedia.org/page/Spanish_literature>;
- dcterms:subject <http://dbpedia.org/page/Biblioteca_Virtual_Miguel_de_Cervantes>;
+ dcterms:subject <https://www.wikidata.org/wiki/Q1492>;
+ dcterms:subject <https://www.wikidata.org/wiki/Q58734>;
  void:feature <http://www.w3.org/ns/formats/RDF_XML>;
  .
 
