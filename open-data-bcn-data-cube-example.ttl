@@ -143,18 +143,22 @@ rdfs:label "Unit" .
 
 ex:quarter1 a ex:Region ;
   owl:sameAs wd:Q1758503 ;
+  owl:sameAs gn:3123673 ;
   rdfs:label "El Raval"@en .
   
 ex:quarter2 a ex:Region ;
   owl:sameAs wd:Q17154 ;
+  owl:sameAs gn:6544577 ;
   rdfs:label "Gothic Quarter"@en .
   
 ex:quarter3 a ex:Region ;
   owl:sameAs wd:Q377070 ;
+  owl:sameAs gn:3128757 ;
   rdfs:label "La Barceloneta"@en .
   
 ex:quarter4 a ex:Region ;
-  owl:sameAs wd:Q2442135 ;
+  owl:sameAs wd:Q2442135 ;  
+  owl:sameAs gn:3119123 ;
   rdfs:label "Sant Pere, Santa Caterina i la Ribera"@en .
   
 ex:quarter34 a ex:Region ;
@@ -162,7 +166,7 @@ ex:quarter34 a ex:Region ;
   rdfs:label "Can Baró"@en .  
   
 ex:quarter47 a ex:Region ;
-  owl:sameAs wd:Q3320716 ;
+  owl:sameAs wd:Q3320716 ; 
   rdfs:label "Can Peguera"@en .  
 
 ex:quarter49 a ex:Region ;
@@ -186,15 +190,16 @@ ex:quarter59 a ex:Region ;
   rdfs:label "Bon Pastor"@en . 
 
 ex:quarter32 a ex:Region ;
-  owl:sameAs wd:Q2994821 ;
+  owl:sameAs wd:Q2994821 ;  
   rdfs:label "Camp d'en Grassot i Gràcia Nova"@en . 
   
 ex:quarter64 a ex:Region ;
-  owl:sameAs wd:Q3294602 ;
+  owl:sameAs wd:Q3294602 ; 
   rdfs:label "El Camp de l'Arpa del Clot"@en .
   
 ex:quarter37 a ex:Region ;
   owl:sameAs wd:Q3319498 ;
+  owl:sameAs gn:6545261 ;
   rdfs:label "El Carmel"@en .     
 
 ex:quarter42 a ex:Region ;
@@ -203,10 +208,11 @@ ex:quarter42 a ex:Region ;
 
 ex:quarter65 a ex:Region ;
   owl:sameAs wd:Q2979686 ;
+  owl:sameAs gn:3124932 ;
   rdfs:label "El Clot"@en .     
 
 ex:quarter29 a ex:Region ;
-  owl:sameAs wd:Q1932090 ;
+  owl:sameAs wd:Q1932090 ;  
   rdfs:label "El Coll"@en .
   
 ex:quarter62 a ex:Region ;
@@ -215,6 +221,7 @@ ex:quarter62 a ex:Region ;
  
 ex:quarter5 a ex:Region ;
   owl:sameAs wd:Q2107762 ;
+  owl:sameAs gn:6690784 ;
   rdfs:label "Fort Pienc"@en .   
  
 ex:quarter35 a ex:Region ;
@@ -231,6 +238,7 @@ ex:quarter11 a ex:Region ;
   
 ex:quarter68 a ex:Region ;
   owl:sameAs wd:Q1404773 ;
+  owl:sameAs gn:6545114 ;
   rdfs:label "El Poblenou"@en .  
   
 ex:quarter27 a ex:Region ;
@@ -243,6 +251,7 @@ ex:quarter43 a ex:Region ;
 
 ex:quarter15 a ex:Region ;
   owl:sameAs wd:Q3750929 ;
+  owl:sameAs gn:6545104 ;
   rdfs:label "Hostafrancs"@en .  
   
 ex:quarter8 a ex:Region ;
@@ -255,6 +264,7 @@ ex:quarter16 a ex:Region ;
   
 ex:quarter7 a ex:Region ;
   owl:sameAs wd:Q1904302 ;
+  owl:sameAs gn:6690786 ;
   rdfs:label "Dreta de l'Eixample"@en .  
   
 ex:quarter36 a ex:Region ;
@@ -283,6 +293,7 @@ ex:quarter6 a ex:Region ;
   
 ex:quarter61 a ex:Region ;
   owl:sameAs wd:Q3773462 ;
+  owl:sameAs gn:3119045 ;
   rdfs:label "La Sagrera"@en .
 
 ex:quarter30 a ex:Region ;
@@ -331,6 +342,7 @@ ex:quarter50 a ex:Region ;
   
 ex:quarter24 a ex:Region ;
   owl:sameAs wd:Q3297896 ;
+  owl:sameAs gn:6545108 ;  
   rdfs:label "Les Tres Torres"@en . 
 
 ex:quarter40 a ex:Region ;
@@ -343,10 +355,12 @@ ex:quarter63 a ex:Region ;
 
 ex:quarter21 a ex:Region ;
   owl:sameAs wd:Q2562684 ;
+  owl:sameAs gn:6545111 ;  
   rdfs:label "Pedralbes"@en . 
 
 ex:quarter45 a ex:Region ;
   owl:sameAs wd:Q3750558 ;
+  owl:sameAs gn: ;  
   rdfs:label "Porta"@en . 
 
 ex:quarter46 a ex:Region ;
@@ -383,10 +397,12 @@ ex:quarter72 a ex:Region ;
 
 ex:quarter4 a ex:Region ;
   owl:sameAs wd:Q2442135 ;
+  owl:sameAs gn:3119123 ;  
   rdfs:label "Sant Pere, Santa Caterina i la Ribera"@en .
 
 ex:quarter18 a ex:Region ;
   owl:sameAs wd:Q2476184 ;
+  owl:sameAs gn:3109493 ;  
   rdfs:label "Sants"@en .
 
 ex:quarter17 a ex:Region ;
@@ -440,31 +456,37 @@ ex:Y2017 a ex:Time ;
 ex:Y2017M1 a ex:Time ;
              skos:prefLabel "2017/january"@en ;
              skos:broader ex:Y2017Q1 ;
+             owl:sameAs wd:Q20650869 ;
              skos:notation "Y2017M1" .
 
 ex:Y2017M10 a ex:Time ;
               skos:prefLabel "2017/october"@en ;
               skos:broader ex:Y2017Q4 ;
+              owl:sameAs wd:Q21706737 ;
               skos:notation "Y2017M10" .
 
 ex:Y2017M11 a ex:Time ;
               skos:prefLabel "2017/november"@en ;
               skos:broader ex:Y2017Q4 ;
+              owl:sameAs wd:Q21706740 ;
               skos:notation "Y2017M11" .
 
 ex:Y2017M12 a ex:Time ;
               skos:prefLabel "2017/december"@en ;
               skos:broader ex:Y2017Q4 ;
+              owl:sameAs wd:Q22971091 ;
               skos:notation "Y2017M12" .
 
 ex:Y2017M2 a ex:Time ;
              skos:prefLabel "2017/february"@en ;
              skos:broader ex:Y2017Q1 ;
+             owl:sameAs wd:Q23419257 ;
              skos:notation "Y2017M2" .
 
 ex:Y2017M3 a ex:Time ;
              skos:prefLabel "2017/march"@en ;
              skos:broader ex:Y2017Q1 ;
+             owl:sameAs wd:Q23994849 ;
              skos:notation "Y2017M3" .
 
 ex:Y2017M4 a ex:Time ;
@@ -475,28 +497,32 @@ ex:Y2017M4 a ex:Time ;
 ex:Y2017M5 a ex:Time ;
              skos:prefLabel "2017/may"@en ;
              skos:broader ex:Y2017Q2 ;
+             owl:sameAs wd:Q23994850 ;
              skos:notation "Y2017M5" .
 
 ex:Y2017M6 a ex:Time ;
              skos:prefLabel "2017/june"@en ;
              skos:broader ex:Y2017Q2 ;
+             owl:sameAs wd:Q23994851 ;
              skos:notation "Y2017M6" .
 
 ex:Y2017M7 a ex:Time ;
              skos:prefLabel "2017/july"@en ;
              skos:broader ex:Y2017Q3 ;
+             owl:sameAs wd:Q23994853 ;
              skos:notation "Y2017M7" .
 
 ex:Y2017M8 a ex:Time ;
              skos:prefLabel "2017/august"@en ;
              skos:broader ex:Y2017Q3 ;
+             owl:sameAs wd:Q23994854 ;
              skos:notation "Y2017M8" .
 
 ex:Y2017M9 a ex:Time ;
              skos:prefLabel "2017/september"@en ;
              skos:broader ex:Y2017Q3 ;
+             owl:sameAs wd:Q23994855 ;
              skos:notation "Y2017M9" .
-
 ex:Y2017Q1 a ex:TimeQ1 ;
              skos:prefLabel "2017/I quarter"@en ;
              skos:broader ex:Y2017 ;
