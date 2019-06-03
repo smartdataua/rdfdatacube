@@ -19,7 +19,7 @@ ex:dataset a qb:DataSet ;
   rdfs:comment "Multidimensional dataset about the critical cleaning spots in the city of Barcelona" ;
   qb:structure ex:dsd ;
   dc:rights <https://creativecommons.org/licenses/by/4.0/> ;
-  dc:publisher "Smart data ua group"^^xmls:string .
+  dc:publisher "Lucentia Research Group UA"^^xmls:string .
   
 sdmx-attr:unitMeasure a rdf:Property, qb:AttributeProperty ;
                         rdfs:label "Unit of Measure"@en ;
@@ -451,98 +451,100 @@ ex:Y2004 a ex:Time ;
   rdfs:label "2004"@en .
   
 ex:Y2017 a ex:Time ;
-           skos:prefLabel "2017"@en ;
-           skos:notation "Y2017" .
+  skos:prefLabel "2017"@en ;
+  owl:sameAs wd:Q25290 ;
+  skos:notation "Y2017" .
 
 ex:Y2017M1 a ex:Time ;
-             skos:prefLabel "2017/january"@en ;
-             skos:broader ex:Y2017Q1 ;
-             owl:sameAs wd:Q20650869 ;
-             skos:notation "Y2017M1" .
+  skos:prefLabel "2017/january"@en ;
+  skos:broader ex:Y2017Q1 ;
+  owl:sameAs wd:Q20650869 ;
+  skos:notation "Y2017M1" .
 
 ex:Y2017M10 a ex:Time ;
-              skos:prefLabel "2017/october"@en ;
-              skos:broader ex:Y2017Q4 ;
-              owl:sameAs wd:Q21706737 ;
-              skos:notation "Y2017M10" .
+  skos:prefLabel "2017/october"@en ;
+  skos:broader ex:Y2017Q4 ;
+  owl:sameAs wd:Q21706737 ;
+  skos:notation "Y2017M10" .
 
 ex:Y2017M11 a ex:Time ;
-              skos:prefLabel "2017/november"@en ;
-              skos:broader ex:Y2017Q4 ;
-              owl:sameAs wd:Q21706740 ;
-              skos:notation "Y2017M11" .
+  skos:prefLabel "2017/november"@en ;
+  skos:broader ex:Y2017Q4 ;
+  owl:sameAs wd:Q21706740 ;
+  skos:notation "Y2017M11" .
 
 ex:Y2017M12 a ex:Time ;
-              skos:prefLabel "2017/december"@en ;
-              skos:broader ex:Y2017Q4 ;
-              owl:sameAs wd:Q22971091 ;
-              skos:notation "Y2017M12" .
+  skos:prefLabel "2017/december"@en ;
+  skos:broader ex:Y2017Q4 ;
+  owl:sameAs wd:Q22971091 ;
+  skos:notation "Y2017M12" .
 
 ex:Y2017M2 a ex:Time ;
-             skos:prefLabel "2017/february"@en ;
-             skos:broader ex:Y2017Q1 ;
-             owl:sameAs wd:Q23419257 ;
-             skos:notation "Y2017M2" .
+  skos:prefLabel "2017/february"@en ;
+  skos:broader ex:Y2017Q1 ;
+  owl:sameAs wd:Q23419257 ;
+  skos:notation "Y2017M2" .
 
 ex:Y2017M3 a ex:Time ;
-             skos:prefLabel "2017/march"@en ;
-             skos:broader ex:Y2017Q1 ;
-             owl:sameAs wd:Q23994849 ;
-             skos:notation "Y2017M3" .
+  skos:prefLabel "2017/march"@en ;
+  skos:broader ex:Y2017Q1 ;
+  owl:sameAs wd:Q23994849 ;
+  skos:notation "Y2017M3" .
 
 ex:Y2017M4 a ex:Time ;
-             skos:prefLabel "2017/april"@en ;
-             skos:broader ex:Y2017Q2 ;
-             skos:notation "Y2017M4" .
+  skos:prefLabel "2017/april"@en ;
+  skos:broader ex:Y2017Q2 ;
+  skos:notation "Y2017M4" .
 
 ex:Y2017M5 a ex:Time ;
-             skos:prefLabel "2017/may"@en ;
-             skos:broader ex:Y2017Q2 ;
-             owl:sameAs wd:Q23994850 ;
-             skos:notation "Y2017M5" .
+  skos:prefLabel "2017/may"@en ;
+  skos:broader ex:Y2017Q2 ;
+  owl:sameAs wd:Q23994850 ;
+  skos:notation "Y2017M5" .
 
 ex:Y2017M6 a ex:Time ;
-             skos:prefLabel "2017/june"@en ;
-             skos:broader ex:Y2017Q2 ;
-             owl:sameAs wd:Q23994851 ;
-             skos:notation "Y2017M6" .
+  skos:prefLabel "2017/june"@en ;
+  skos:broader ex:Y2017Q2 ;
+  owl:sameAs wd:Q23994851 ;
+  skos:notation "Y2017M6" .
 
 ex:Y2017M7 a ex:Time ;
-             skos:prefLabel "2017/july"@en ;
-             skos:broader ex:Y2017Q3 ;
-             owl:sameAs wd:Q23994853 ;
-             skos:notation "Y2017M7" .
+  skos:prefLabel "2017/july"@en ;
+  skos:broader ex:Y2017Q3 ;
+  owl:sameAs wd:Q23994853 ;
+  skos:notation "Y2017M7" .
 
 ex:Y2017M8 a ex:Time ;
-             skos:prefLabel "2017/august"@en ;
-             skos:broader ex:Y2017Q3 ;
-             owl:sameAs wd:Q23994854 ;
-             skos:notation "Y2017M8" .
+  skos:prefLabel "2017/august"@en ;
+  skos:broader ex:Y2017Q3 ;
+  owl:sameAs wd:Q23994854 ;
+  skos:notation "Y2017M8" .
 
 ex:Y2017M9 a ex:Time ;
-             skos:prefLabel "2017/september"@en ;
-             skos:broader ex:Y2017Q3 ;
-             owl:sameAs wd:Q23994855 ;
-             skos:notation "Y2017M9" .
+  skos:prefLabel "2017/september"@en ;
+  skos:broader ex:Y2017Q3 ;
+  owl:sameAs wd:Q23994855 ;
+  skos:notation "Y2017M9" .
+
 ex:Y2017Q1 a ex:TimeQ1 ;
-             skos:prefLabel "2017/I quarter"@en ;
-             skos:broader ex:Y2017 ;
-             skos:notation "Y2017Q1" .
+  skos:prefLabel "2017/I quarter"@en ;
+  skos:broader ex:Y2017 ;
+  skos:notation "Y2017Q1" .
 
 ex:Y2017Q2 a ex:TimeQ2 ;
-             skos:prefLabel "2017/II quarter"@en ;
-             skos:broader ex:Y2017 ;
-             skos:notation "Y2017Q2" .
+  skos:prefLabel "2017/II quarter"@en ;
+  skos:broader ex:Y2017 ;
+  skos:notation "Y2017Q2" .
 
 ex:Y2017Q3 a ex:TimeQ3 ;
-             skos:prefLabel "2017/III quarter"@en ;
-             skos:broader ex:Y2017 ;
-             skos:notation "Y2017Q3" .
+  skos:prefLabel "2017/III quarter"@en ;
+  skos:broader ex:Y2017 ;
+  skos:notation "Y2017Q3" .
 
 ex:Y2017Q4 a ex:TimeQ4 ;
-             skos:prefLabel "2017/IV quarter"@en ;
-             skos:broader ex:Y2017 ;
-             skos:notation "Y2017Q4" .
+  skos:prefLabel "2017/IV quarter"@en ;
+  skos:broader ex:Y2017 ;
+  skos:notation "Y2017Q4" .
 
 <http://example.com/201702/obs0> a qb:Observation ;
 	qb:dataSet ex:dataset ;
